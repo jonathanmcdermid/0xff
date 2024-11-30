@@ -1,0 +1,16 @@
+[requires]
+benchmark/[>=1.7.1 <1.8]
+nlohmann_json/[>=3.10.5 <3.11]
+libcurl/8.10.1
+
+[test_requires]
+gtest/[>=1.14 <1.15]
+
+[options]
+
+[layout]
+cmake_layout
+
+[generators]
+CMakeDeps
+CMakeToolchain
